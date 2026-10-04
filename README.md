@@ -8,18 +8,13 @@ Proyecto práctico de **Base de Datos** orientado al análisis y gestión de inf
 
 ## Descripción
 
-El proyecto consiste en el diseño e implementación de una base de datos relacional para almacenar y consultar información sobre videojuegos y sus ventas.
-
 El dataset utilizado contiene información de videojuegos, plataformas, géneros, editores y ventas por región, incluyendo las ventas globales. A partir de estos datos se normalizó la información y se diseñó una estructura relacional que permite realizar consultas, generar vistas e incorporar índices para mejorar el acceso a la información.
-
-La problemática abordada es la necesidad de organizar un volumen considerable de datos de ventas de videojuegos de forma estructurada, evitando redundancias y facilitando la generación de información para su análisis.
 
 ## Fuente de los datos
 
-Los datos utilizados provienen de un dataset basado en información de **VGChartz**, sitio especializado en datos y estadísticas de ventas de videojuegos.
+Los datos utilizados provienen de un dataset basado en información del sitio Web Kaggle.
 
-- Fuente original: [VGChartz](https://www.vgchartz.com/)
-- Dataset utilizado: datos de ventas de videojuegos obtenidos a partir del conjunto de datos utilizado para el trabajo práctico.
+- Fuente original: https://www.kaggle.com/datasets/gregorut/videogamesales
 
 ## Estructura de la base de datos
 
