@@ -100,21 +100,28 @@ Las vistas permiten reutilizar consultas SQL sin necesidad de escribir nuevament
 
 ## Backup
 
-Para realizar un backup de la base de datos se puede utilizar `mysqldump`.
+Para realizar la instalación de la base de datos, se proporciona un script SQL que contiene la estructura necesaria para crear la base de datos, sus tablas, relaciones, índices y vistas.
 
-Ejemplo:
+El script permite instalar la base de datos de manera sencilla en un servidor MySQL/MariaDB sin necesidad de crear manualmente cada uno de sus componentes.
 
-```bash
-mysqldump -u USUARIO -p practicodb > backup_practicodb.sql
-```
+### Instalación de la base de datos mediante el script
 
-Para restaurar el backup:
+Para instalar la base de datos se deben seguir los siguientes pasos:
 
-```bash
-mysql -u USUARIO -p practicodb < backup_practicodb.sql
-```
+1. Tener instalado **MySQL o MariaDB** y contar con una herramienta de administración como **HeidiSQL**, phpMyAdmin o MySQL Workbench.
 
-También se puede realizar el backup y la restauración utilizando las herramientas disponibles en HeidiSQL.
+2. Abrir la herramienta de administración y conectarse al servidor de base de datos.
+
+3. Abrir el archivo del script SQL incluido en el proyecto.
+
+4. Ejecutar el script completo. Este se encargará de:
+
+   * Crear la base de datos `practicodb`.
+   * Crear las tablas necesarias.
+   * Establecer las relaciones entre las tablas mediante claves foráneas.
+   * Crear los índices definidos para mejorar el acceso a los datos.
+   * Crear las vistas utilizadas en el proyecto.
+   * Preparar la estructura necesaria para realizar la carga de los datos.
 
 ## Consultas SQL
 
