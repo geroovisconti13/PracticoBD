@@ -14,7 +14,8 @@ El dataset utilizado contiene información de videojuegos, plataformas, géneros
 
 Los datos utilizados provienen de un dataset basado en información del sitio Web Kaggle.
 
-- Fuente original: https://www.kaggle.com/datasets/gregorut/videogamesales
+- Fuente original: path = kagglehub.dataset_download("gregorut/videogamesales")
+- Url del dataset: https://www.kaggle.com/datasets/gregorut/videogamesales
 
 ## Estructura de la base de datos
 
@@ -32,37 +33,15 @@ Las relaciones entre las tablas se implementan mediante claves primarias y clave
 
 ## Diagrama
 
-![Diagrama](docs/diagrama.png)
+<img width="1160" height="546" alt="WhatsApp Image 2026-09-24 at 22 45 46" src="https://github.com/user-attachments/assets/8db6e5b0-03fd-49c1-bac1-4d05c1f1134d" />
 
 ## Requisitos
 
 - MySQL 8.0 o superior / MariaDB
-- HeidiSQL, MySQL Workbench u otro cliente compatible
+- HeidiSQL.
 - Git
 - Archivo CSV del dataset
 - Permisos para crear bases de datos, tablas, índices y vistas
-
-## Instalación
-
-1. Clonar el repositorio:
-
-   ```bash
-   git clone https://github.com/geroovisconti13/PracticoBD.git
-   ```
-
-2. Ingresar al directorio del proyecto:
-
-   ```bash
-   cd PracticoBD
-   ```
-
-3. Crear la base de datos en MySQL/MariaDB.
-
-4. Ejecutar los scripts SQL incluidos en el proyecto respetando el orden indicado.
-
-5. Importar los datos del CSV en la tabla correspondiente.
-
-6. Ejecutar las sentencias de creación de índices y vistas.
 
 ## Creación de tablas
 
@@ -104,11 +83,11 @@ Los índices tienen como objetivo mejorar el rendimiento de las consultas, espec
 - Editores.
 - Datos utilizados para filtrar y ordenar las ventas.
 
-Los índices se encuentran definidos mediante sentencias `CREATE INDEX` o mediante las restricciones correspondientes.
+Los índices se encuentran definidos mediante sentencias `CREATE INDEX`.
 
 ## Vistas
 
-El proyecto incluye **4 o más vistas** destinadas a facilitar consultas frecuentes y mostrar información resumida.
+El proyecto incluye **4 vistas** destinadas a facilitar consultas frecuentes y mostrar información resumida.
 
 Entre las vistas desarrolladas se encuentran:
 
@@ -144,25 +123,10 @@ El proyecto contiene consultas SQL destinadas a:
 - Buscar videojuegos por plataforma.
 - Filtrar videojuegos por género.
 - Consultar información de editores.
-- Analizar ventas globales.
 - Obtener las plataformas con mayores ventas.
 - Obtener los videojuegos con mayores ventas.
-- Consultar información específica de una plataforma, como Nintendo 64.
 - Utilizar las vistas creadas para obtener información resumida.
 
-Ejemplo:
-
-```sql
-SELECT *
-FROM top_20_juegos;
-```
-
-Otro ejemplo para consultar las ventas globales por plataforma:
-
-```sql
-SELECT *
-FROM ventas_globales_plataforma;
-```
 
 ## Autores
 
