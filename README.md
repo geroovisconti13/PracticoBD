@@ -1,4 +1,4 @@
-# PrácticoBD
+  # PrácticoBD
 
 Proyecto práctico de **Base de Datos** orientado al análisis y gestión de información de ventas de videojuegos.
 
@@ -33,7 +33,7 @@ Las relaciones entre las tablas se implementan mediante claves primarias y clave
 
 ## Diagrama
 
-<img width="1160" height="546" alt="WhatsApp Image 2026-09-24 at 22 45 46" src="https://github.com/user-attachments/assets/8db6e5b0-03fd-49c1-bac1-4d05c1f1134d" />
+<img width="950" height="582" alt="WhatsApp Image 2026-10-06 at 23 13 03" src="https://github.com/user-attachments/assets/bd177d09-2239-4084-a791-6b17ac19e923" />
 
 ## Requisitos
 
