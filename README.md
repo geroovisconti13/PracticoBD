@@ -71,6 +71,12 @@ El procedimiento general de importación es:
 5. Verificar la cantidad de registros importados.
 6. Ejecutar consultas de control para comprobar la integridad de los datos.
 
+### Documentación de la importación
+
+Durante la importación se encontraron errores que afectaron la cantidad de registros cargados y la limpieza de algunos datos (por ejemplo, filas dañadas por campos con comas y caracteres sobrantes en la columna de ventas globales). La explicación completa y consultas utilizadas, se encuentra en las **páginas 6 y 7** del siguiente documento:
+
+[Documentación: Importación de la base de datos](https://docs.google.com/document/d/1Z0EdPdrXTY-9mrxy6nvJzaXtA30-EHMKg9zquVQT_7g/edit?usp=sharing)
+
 ## Índices
 
 Se crean índices sobre columnas utilizadas frecuentemente en búsquedas, filtros y relaciones.
