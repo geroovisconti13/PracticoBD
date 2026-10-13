@@ -77,10 +77,6 @@ Durante la importación se encontraron errores que afectaron la cantidad de regi
 
 [Documentación: Importación de la base de datos](https://docs.google.com/document/d/1Z0EdPdrXTY-9mrxy6nvJzaXtA30-EHMKg9zquVQT_7g/edit?usp=sharing)
 
-### Informe pricipal de la base de datos
-
-[Uploading Trabajo Practico Base de Datos-Gestion.pdf…]()
-
 ## Índices
 
 Se crean índices sobre columnas utilizadas frecuentemente en búsquedas, filtros y relaciones.
