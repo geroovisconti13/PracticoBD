@@ -104,6 +104,10 @@ Entre las vistas desarrolladas se encuentran:
 
 Las vistas permiten reutilizar consultas SQL sin necesidad de escribir nuevamente toda la lógica de consulta.
 
+### Backup de la base de datos intermedia
+
+Se realiza una copia de seguridad de la base de datos intermedia, donde se importan y almacenan temporalmente los datos originales del archivo CSV. Este respaldo permite conservar la información cargada y recuperarla en caso de errores durante el procesamiento o la transferencia de los datos a la base de datos definitiva `practicodb`, evitando tener que repetir la importación del archivo original.
+
 ## Backup
 
 Para realizar la instalación de la base de datos, se proporciona un script SQL que contiene la estructura necesaria para crear la base de datos, sus tablas, relaciones, índices y vistas.
